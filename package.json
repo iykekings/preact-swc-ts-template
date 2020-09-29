@@ -1,0 +1,39 @@
+{
+  "name": "swc-ts-preact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "build:dev": "webpack --config webpack.dev.js",
+    "start": "webpack-dev-server --open --liveReload --config webpack.dev.js",
+    "start:prod": "webpack-dev-server --open --config webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/core": "^1.2.21",
+    "@types/react": "^16.9.47",
+    "@types/react-dom": "^16.9.8",
+    "@typescript-eslint/eslint-plugin": "^3.10.1",
+    "@typescript-eslint/parser": "^3.10.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.1.0",
+    "eslint": "^7.7.0",
+    "eslint-plugin-react": "^7.20.6",
+    "html-webpack-plugin": "^4.3.0",
+    "image-config-webpack-plugin": "^2.0.0",
+    "scss-config-webpack-plugin": "^2.0.0",
+    "swc-loader": "^0.1.12",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.1.4"
+  },
+  "dependencies": {
+    "preact": "^10.5.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
